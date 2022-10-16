@@ -133,6 +133,9 @@
   transition: all .2s ease;
 }
 
+
+
+
 </style>
 </head>
 <body>
@@ -141,18 +144,16 @@
 
 
 
-<form action="script.php" method="post" enctype="multipart/form-data">
-
-
+<form action="script.php" method="post" enctype="multipart/form-data" style="width:50%; padding-top:2%; padding-left:25%; padding-right:25%;">
 
 <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <div>
   
 
   <div class="image-upload-wrap">
-    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="text/xml" name="fileToUpload" id="fileToUpload"/>
+    <input class="file-upload-input" type='file' onchange="readURL(this);" accept=".xml, .txt" name="fileToUpload" id="fileToUpload"/>
     <div class="drag-text">
-      <h3>Select an XML File</h3>
+      <h3>Select File</h3>
     </div>
   </div>
   <div class="file-upload-content">
